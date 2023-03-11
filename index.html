@@ -8,21 +8,23 @@
     <link rel="stylesheet" href="./src/styles/style.css" />
     <link
       rel="shortcut icon"
-      href="./src/images/logo insta.png"
+      href="./src/images/logo-insta.png"
       type="image/x-icon"
     />
+
+    <script src="https://kit.fontawesome.com/e049507d17.js" crossorigin="anonymous"></script>
   </head>
   <body>
     </div>
     <!-- header and nav -->
-    <header id="main">
+    <header class="header" id="header">
       <nav>
         <div class="nav-container">
-          <div class="logo">
+          <!-- <div class="logo">
             <a href="index.html"
               ><img src="./src/images/logo-insta.png" alt="bobotrele-logo"
             /></a>
-          </div>
+          </div> -->
           <div class="nav-toggle">
             <button id="menu-toggle">
               <img src="./src/images/list.svg" />
@@ -30,20 +32,22 @@
             <button id="menu-close"><img src="./src/images/x-lg.svg" /></button>
           </div>
           <ul class="nav-menu">
-            <li><a href="#" id="bobotrele">Bobotrele</a></li>
-            <li><a href="#" id="zajecia">Zajęcia Gordonowskie</a></li>
-            <li><a href="#" id="blog">Blog</a></li>
-            <li><a href="#" id="oferta">Oferta</a></li>
-            <li><a href="#" id="regulamin">Regulamin</a></li>
-            <li><a href="#" id="o-mnie">O mnie</a></li>
-            <li><a href="#" id="kontakt">Kontakt</a></li>
+            <li><a href="index.html" class="nav-link">Bobotrele</a></li>
+            <li><a href="#lessons" class="nav-link">Zajęcia Gordonowskie</a></li>
+            <li><a href="#" class="nav-link">Blog</a></li>
+            <li><a href="#" class="nav-link">Oferta</a></li>
+            <li><a href="#" class="nav-link">Regulamin</a></li>
+            <li><a href="#" class="nav-link">Kontakt</a></li>
           </ul>
         </div>
       </nav>
     </header>
 
     <!-- Main & text -->
-    <main class="main-container" id="main">
+    <main class="main-container" id="main"> 
+      <div class="logo-container">
+        <img src="./src/images/logo-insta.png" alt="logo">
+      </div>
       <div class="text-container">
         <h1>Bobotrele</h1>
         <p>
@@ -73,13 +77,58 @@
       </div>
     </main>
 
-    <!-- Opinie użytkowników -->
-    <section class="opinions" id="opinie"></section>
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="photo">
+          <img src="./src/images/miriam.png" alt="miriam">
+        </div>
+        <div class="about-container">
+          
+          <h1>Miriam Świdrów</h1>
+          <p>Z wykształcenia jestem skrzypaczką i edukatorką muzyczną - magistrem sztuki (specjalność arteterapia). </p>
+          <p>Uczestniczyłam w wielu kursach i szkoleniach w temacie edukacji muzycznej i muzykoterapii (m. in. organizowanych przez Instytut Gordonowski i Fundację Kreatywnej Edukacji). </p>
+          <p>Pracuję z najmłodszymi od 10 lat jako niania. Teoria uczenia się muzyki E. E. Gordona zafascynowała mnie, ponieważ jest osadzona w teorii muzyki i odpowiada etapom rozwoju psychofizycznego dziecka.</p>
+        </div>
+      </section>
+      <!-- Opinie użytkowników -->
+    <section class="opinions" id="opinions">
+      <h2>Opinie</h2>
+      <div class="card-container">
+        <div class="card1">
+          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fmagda.urban.752%2Fposts%2Fpfbid02Unj9JrPPtf7EkQYS15R5vWooDdguo6vZ4uXvpLCDfCJphEbVNbtVjqgk6KAgcHALl&show_text=true&width=500" width="500" height="208" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
+        <div class="card2">
+          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fk.smentek%2Fposts%2Fpfbid021Q3m5stzjupEqhyEkzxFvFFPhahqti9t861GybxYu31AKvYayVTqaLMKabYCqTDcl&show_text=true&width=500" width="500" height="194" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
+      </div>
+      </section>
 
-    <footer class="footer">
+
+
+      <!-- Social media -->
+      <section class="social-media" id="social">
+        <div class="media-container">
+        <a href="https://www.facebook.com/profile.php?id=100074597705457" class="fa-brands fa-facebook" target="_blank"></a>
+        <a href="https://www.instagram.com/bobotrele/" class="fa-brands fa-instagram" target="_blank"></a>
+        <a href="https://open.spotify.com/user/31nitg45m63gkrymou5wraxvwdjq"class="fa-brands fa-spotify" target="_blank"></a>
+        </div>
+      </section>
+
+    <footer class="footer" id="footer">
       <p>Copyright &copy; 2023 Bobotrele</p>
       <!-- <p>Made by <a href="#">Łukasz Szymański</a></p> -->
     </footer>
+
+
+
+
+
+    <!-- Nav Links  -->
+    <!-- Lessons -->
+
+    <section id="lessons" class="lessons">
+      <h1>Zajęcia Gordonowskie</h1>
+    </section>
     <script src="src/script/script.js"></script>
   </body>
 </html>
