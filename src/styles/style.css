@@ -73,7 +73,7 @@ body {
 /* main */
 
 .main-container {
-  width: 100%;
+  width: 80%;
   height: 100vh;
   margin: 2rem auto;
   display: flex;
@@ -115,7 +115,7 @@ body {
   flex-wrap: wrap;
 }
 .key-wrapper img {
-  width: 10%;
+  width: 25%;
 }
 
 .key-wrapper div {
