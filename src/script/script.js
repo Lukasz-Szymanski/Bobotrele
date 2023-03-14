@@ -12,20 +12,18 @@ let currImg = 1;
 
 let timeoutID;
 
-const imgcontainer = document.querySelector(".slider");
+const imgContainer = document.querySelector(".slider");
 
 function updateImage() {
   if (currImg > numImg) {
     currImg = 1;
-  } else if (currImg < 1) {
-    currImg = numImg;
   }
-  imgcontainer.style.transform = `translateX(-${(currImg - 1) * 800}px)`;
+  imgContainer.style.transform = `translateX(-${(currImg - 1) * 768}px)`;
 
   timeoutID = setTimeout(() => {
     currImg++;
     updateImage();
-  }, 5000);
+  }, 7000);
 }
 
 updateImage();
