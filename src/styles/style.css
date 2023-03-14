@@ -86,9 +86,6 @@ body {
   flex-basis: calc(50% - 10px);
   margin: 5px;
 }
-.logo-container {
-  width: 50%;
-}
 
 .logo-container img {
   width: 50%;
