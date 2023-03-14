@@ -11,6 +11,7 @@ const numImg = document.querySelectorAll("img").length;
 let currImg = 1;
 
 let timeoutID;
+
 const imgcontainer = document.querySelector(".slider");
 
 function updateImage() {
