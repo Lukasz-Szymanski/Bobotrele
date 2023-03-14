@@ -18,6 +18,9 @@ function updateImage() {
   if (currImg > numImg) {
     currImg = 1;
   }
+  if (currImg > numImg / 4) {
+    currImg = 1;
+  }
   imgContainer.style.transform = `translateX(-${(currImg - 1) * 768}px)`;
 
   timeoutID = setTimeout(() => {
