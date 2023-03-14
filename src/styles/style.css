@@ -73,7 +73,7 @@ body {
 /* main */
 
 .main-container {
-  width: 80%;
+  width: 90%;
   height: 100vh;
   margin: 2rem auto;
   display: flex;
@@ -129,6 +129,9 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  width: 50%;
+  height: 50%;
+  margin: 10rem auto;
 }
 
 .photo {
@@ -141,11 +144,6 @@ body {
   height: 15rem;
   object-fit: cover;
   border-radius: 50%;
-}
-.about {
-  width: 40%;
-  height: 50%;
-  margin: 10px auto;
 }
 
 /* Opinions  */
