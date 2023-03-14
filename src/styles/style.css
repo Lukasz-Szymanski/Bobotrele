@@ -251,10 +251,6 @@ footer {
     height: fit-content;
   }
 
-  .logo img {
-    width: 3.5rem;
-  }
-
   .nav-toggle {
     position: absolute;
     top: 0;
@@ -293,6 +289,14 @@ footer {
     flex-direction: column;
   }
 
+  .text-container {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .key-container {
+    padding-top: 10rem;
+  }
   .logo-container img {
     display: none;
   }
@@ -311,8 +315,16 @@ footer {
     display: none;
   }
 
-  /* opinions */
+  .about-container h2 {
+    font-size: 35px;
+  }
 
+  .about-container p {
+    width: auto;
+    font-size: 15px;
+  }
+
+  /* opinions */
   .opinions {
     display: none;
   }
