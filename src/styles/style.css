@@ -136,15 +136,15 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  width: 50%;
+  width: 80%;
   height: 50%;
   margin: 10rem auto;
 }
 
 .photo {
-  width: 40%;
+  width: 50%;
   height: 50%;
-  margin-right: 9rem;
+  padding-left: 20rem;
 }
 .photo img {
   width: 15rem;
@@ -152,9 +152,15 @@ body {
   object-fit: cover;
   border-radius: 50%;
 }
-
+.about-container {
+  width: 50%;
+}
 .about-container h2 {
   font-size: 40px;
+}
+
+.about-container p {
+  font-size: 18px;
 }
 
 /* Opinions  */
@@ -302,6 +308,12 @@ footer {
   /* About */
 
   .photo {
+    display: none;
+  }
+
+  /* opinions */
+
+  .opinions {
     display: none;
   }
 }
