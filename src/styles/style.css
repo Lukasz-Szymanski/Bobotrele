@@ -272,6 +272,8 @@ footer {
   min-height: 80vh;
   margin: 10px auto;
   margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
 }
 /* Blog */
 .blog {
@@ -279,6 +281,8 @@ footer {
   min-height: 80vh;
   margin: 10px auto;
   margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
 }
 /* Offer */
 .offer {
@@ -286,17 +290,42 @@ footer {
   min-height: 80vh;
   margin: 10px auto;
   margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-/* Contact */
 
+/* Contact */
 .contact {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* flex-wrap: wrap; */
   width: 90%;
   min-height: 80vh;
   margin: 10px auto;
   margin-bottom: 5rem;
+}
+
+.contact-img img {
+  width: 45%;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.5);
+  margin-left: 25rem;
+}
+
+.contact-text {
+  margin-bottom: 10rem;
+  width: 60%;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-contact a {
+  text-decoration: none;
+  font-size: 40px;
+  margin: 15px 15px 15px 0px;
 }
 
 /* RWD */
@@ -383,6 +412,16 @@ footer {
   /* opinions */
   .opinions {
     display: none;
+  }
+
+  /* lessons */
+  .gordon-img {
+    display: none;
+  }
+
+  .gordon-text {
+    width: auto;
+    margin: auto;
   }
 }
 
