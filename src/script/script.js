@@ -133,6 +133,7 @@ function showContact() {
   footerSection.style.display = "flex";
   offerSection.style.display = "none";
   newsSection.style.display = "none";
+  blogSection.style.display = "none";
 }
 
 // button reaction
