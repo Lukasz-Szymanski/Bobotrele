@@ -345,13 +345,15 @@ footer {
 /* RWD */
 @media (min-width: 1024px) and (max-width: 1440px) {
   .news h2 {
-    margin-bottom: -10rem;
+    margin-bottom: -2rem;
   }
 
   .about img {
     margin-left: -15rem;
   }
 }
+
+/* Tablet */
 @media screen and (max-width: 768px) {
   /* navbar */
   .nav-container {
@@ -420,7 +422,7 @@ footer {
   /* News */
 
   .news h2 {
-    margin-bottom: -10rem;
+    margin-bottom: -2rem;
   }
   /* About */
 
@@ -472,6 +474,9 @@ footer {
     width: auto;
     margin: 20rem auto;
   }
+  .news h2 {
+    margin-bottom: 2rem;
+  }
 
   .about-container {
     width: auto;
@@ -483,6 +488,9 @@ footer {
   .news {
     width: auto;
     margin: 20rem auto;
+  }
+  .news h2 {
+    margin-bottom: 2rem;
   }
 
   .about-container {
@@ -508,6 +516,10 @@ footer {
   .news {
     width: auto;
     margin: 20rem auto;
+  }
+
+  .news h2 {
+    margin-bottom: 2rem;
   }
 
   .about-container {
