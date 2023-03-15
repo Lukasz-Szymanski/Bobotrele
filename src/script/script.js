@@ -160,5 +160,5 @@ contactButton.addEventListener("click", function () {
 });
 
 window.addEventListener("load", function () {
-  showContact();
+  showOffer();
 });
