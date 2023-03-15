@@ -108,7 +108,6 @@ function showBlog() {
   blogSection.style.display = "flex";
   offerSection.style.display = "none";
   contactSection.style.display = "none";
-  offerSection.style.display = "none";
   newsSection.style.display = "none";
 }
 function showOffer() {
