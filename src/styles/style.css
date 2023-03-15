@@ -266,6 +266,27 @@ footer {
   margin-left: -5rem;
 }
 
+/* News */
+.news {
+  width: 90%;
+  min-height: 80vh;
+  margin: 10px auto;
+  margin-bottom: 5rem;
+}
+/* Blog */
+.blog {
+  width: 90%;
+  min-height: 80vh;
+  margin: 10px auto;
+  margin-bottom: 5rem;
+}
+/* Offer */
+.offer {
+  width: 90%;
+  min-height: 80vh;
+  margin: 10px auto;
+  margin-bottom: 5rem;
+}
 /* Contact */
 
 .contact {

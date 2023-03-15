@@ -82,6 +82,7 @@ function showNews() {
   footerSection.style.display = "flex";
   contactSection.style.display = "none";
   offerSection.style.display = "none";
+  blogSection.style.display = "none";
 }
 function showLesson() {
   headerSection.style.display = "flex";
@@ -94,6 +95,7 @@ function showLesson() {
   contactSection.style.display = "none";
   offerSection.style.display = "none";
   newsSection.style.display = "none";
+  blogSection.style.display = "none";
 }
 function showBlog() {
   headerSection.style.display = "flex";
