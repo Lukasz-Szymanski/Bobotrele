@@ -34,7 +34,6 @@ updateImage();
 // create buttons
 
 const bobotreleButton = document.getElementById("bobotrele-btn");
-const newsButton = document.getElementById("news-btn");
 const lessonButton = document.getElementById("lesson-btn");
 const blogButton = document.getElementById("blog-btn");
 const offerButton = document.getElementById("offer-btn");
@@ -49,11 +48,11 @@ const aboutSection = document.getElementById("about");
 const opinionsSection = document.getElementById("opinions");
 const socialSection = document.getElementById("social");
 const footerSection = document.getElementById("footer");
-const newsSection = document.getElementById("news");
 const lessonSection = document.getElementById("lesson");
 const blogSection = document.getElementById("blog");
 const offerSection = document.getElementById("offer");
 const contactSection = document.getElementById("contact");
+const newsSection = document.getElementById("news");
 
 // display action
 
@@ -63,27 +62,14 @@ function showMain() {
   aboutSection.style.display = "flex";
   opinionsSection.style.display = "flex";
   socialSection.style.display = "flex";
+  newsSection.style.display = "flex";
   lessonSection.style.display = "none";
   footerSection.style.display = "flex";
   blogSection.style.display = "none";
   offerSection.style.display = "none";
   contactSection.style.display = "none";
-  newsSection.style.display = "none";
 }
 
-function showNews() {
-  newsSection.style.display = "flex";
-  headerSection.style.display = "flex";
-  mainSection.style.display = "none";
-  aboutSection.style.display = "none";
-  opinionsSection.style.display = "none";
-  socialSection.style.display = "none";
-  lessonSection.style.display = "none";
-  footerSection.style.display = "flex";
-  contactSection.style.display = "none";
-  offerSection.style.display = "none";
-  blogSection.style.display = "none";
-}
 function showLesson() {
   headerSection.style.display = "flex";
   mainSection.style.display = "none";
@@ -94,8 +80,8 @@ function showLesson() {
   footerSection.style.display = "flex";
   contactSection.style.display = "none";
   offerSection.style.display = "none";
-  newsSection.style.display = "none";
   blogSection.style.display = "none";
+  newsSection.style.display = "none";
 }
 function showBlog() {
   headerSection.style.display = "flex";
@@ -133,8 +119,8 @@ function showContact() {
   lessonSection.style.display = "none";
   footerSection.style.display = "flex";
   offerSection.style.display = "none";
-  newsSection.style.display = "none";
   blogSection.style.display = "none";
+  newsSection.style.display = "none";
 }
 
 // button reaction
@@ -142,9 +128,7 @@ function showContact() {
 bobotreleButton.addEventListener("click", function () {
   showMain();
 });
-newsButton.addEventListener("click", function () {
-  showNews();
-});
+
 lessonButton.addEventListener("click", function () {
   showLesson();
 });
