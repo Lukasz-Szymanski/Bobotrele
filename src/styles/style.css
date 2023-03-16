@@ -89,7 +89,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-image: url(/src/images/gordon-2.jpeg);
+  background-image: url(../images/gordon-2.jpeg);
   box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
 }
