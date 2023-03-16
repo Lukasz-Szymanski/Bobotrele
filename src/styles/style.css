@@ -306,20 +306,14 @@ footer {
   justify-content: center;
 }
 
-.offer-wrap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .offer-text {
-  margin-bottom: 10rem;
+  display: flex;
+  justify-content: center;
 }
-
 .offer-lists {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  flex-wrap: wrap;
 }
 
 /* Offer cards */
@@ -328,7 +322,9 @@ footer {
 }
 
 .offer-card {
-  width: 50%;
+  width: 250px;
+  height: 230px;
+  margin: 50px 100px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   text-align: center;
