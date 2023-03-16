@@ -421,6 +421,10 @@ footer {
     margin-left: -15rem;
   }
 
+  .key-wrapper {
+    width: 80%;
+  }
+
   .contact {
     margin-right: 10rem;
   }
@@ -435,6 +439,9 @@ footer {
     margin-bottom: -2rem;
   }
 
+  .key-wrapper {
+    width: 80%;
+  }
   .about img {
     margin-left: -15rem;
   }
