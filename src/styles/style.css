@@ -316,6 +316,32 @@ footer {
   margin-bottom: 10rem;
 }
 
+.offer-lists {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Offer cards */
+.offer-card img {
+  width: 100%;
+}
+
+.offer-card {
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  text-align: center;
+}
+
+.offer-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  padding: 2px 16px;
+}
+
 /* Contact */
 .contact {
   display: flex;
@@ -504,6 +530,7 @@ footer {
   }
   .news h2 {
     margin-bottom: 2rem;
+    padding: 10px;
   }
 
   .about-container {
@@ -516,6 +543,7 @@ footer {
   .news {
     width: auto;
     margin: 20rem auto;
+    padding: 5px;
   }
   .news h2 {
     margin-bottom: 2rem;
@@ -544,6 +572,7 @@ footer {
   .news {
     width: auto;
     margin: 20rem auto;
+    padding: 5px;
   }
 
   .news h2 {
