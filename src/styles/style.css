@@ -348,13 +348,36 @@ footer {
 }
 
 /* RWD */
-@media (min-width: 1024px) and (max-width: 1440px) {
+
+@media screen and (max-width: 1440px) {
   .news h2 {
     margin-bottom: -2rem;
   }
 
   .about img {
     margin-left: -15rem;
+  }
+
+  .contact {
+    margin-right: 10rem;
+  }
+
+  .contact-text {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .news h2 {
+    margin-bottom: -2rem;
+  }
+
+  .about img {
+    margin-left: -15rem;
+  }
+
+  .contact img {
+    margin-left: 15rem;
   }
 }
 
