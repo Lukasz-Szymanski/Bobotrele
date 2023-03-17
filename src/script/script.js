@@ -7,29 +7,23 @@ menuToggle.addEventListener("click", () => {
 });
 
 // opinions slider
-const numImg = document.querySelectorAll("img").length;
-let currImg = 1;
-
-let timeoutID;
-
 const imgContainer = document.querySelector(".slider");
+const imgList = document.querySelectorAll(".slider img");
+let currImg = 0;
 
 function updateImage() {
-  if (currImg > numImg) {
-    currImg = 1;
+  if (currImg >= imgList.length) {
+    currImg = 0;
   }
-  if (currImg > numImg / 4) {
-    currImg = 1;
-  }
-  imgContainer.style.transform = `translateX(-${(currImg - 1) * 768}px)`;
 
-  timeoutID = setTimeout(() => {
-    currImg++;
-    updateImage();
-  }, 7000);
+  imgList[currImg].scrollIntoView({ behavior: "smooth" });
+
+  currImg++;
 }
 
-updateImage();
+let timeoutID = setInterval(() => {
+  updateImage();
+}, 7000);
 
 // create buttons
 
