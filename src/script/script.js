@@ -21,10 +21,9 @@ function updateImage() {
   currImg++;
 }
 
-let timeoutID = setInterval(() => {
-  updateImage();
-}, 7000);
+let timeoutID = setInterval(() => {}, 7000);
 
+updateImage();
 // create buttons
 
 const bobotreleButton = document.getElementById("bobotrele-btn");
