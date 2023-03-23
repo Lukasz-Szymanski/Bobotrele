@@ -162,4 +162,6 @@ window.onclick = function (event) {
 };
 
 // Wyświetlenie okna modalnego
-modal.style.display = "block";
+setTimeout(() => {
+  modal.style.display = "block";
+}, 500);
