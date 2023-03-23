@@ -144,7 +144,7 @@ window.addEventListener("load", function () {
   showMain();
 });
 
-// Actualization functions
+// Alert popup
 // Pobranie elementów HTML
 var modal = document.getElementById("alert");
 var span = document.getElementsByClassName("close")[0];
