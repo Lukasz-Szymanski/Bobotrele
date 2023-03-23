@@ -143,3 +143,23 @@ contactButton.addEventListener("click", function () {
 window.addEventListener("load", function () {
   showMain();
 });
+
+// Actualization functions
+// Pobranie elementów HTML
+var modal = document.getElementById("alert");
+var span = document.getElementsByClassName("close")[0];
+
+// Kliknięcie na przycisk "X" zamyka okno modalne
+span.onclick = function () {
+  modal.style.display = "none";
+};
+
+// Kliknięcie poza oknem modalnym również zamyka je
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+};
+
+// Wyświetlenie okna modalnego
+modal.style.display = "block";
