@@ -8,25 +8,25 @@ menuToggle.addEventListener("click", () => {
 
 // opinions slider
 
-const numImg = document.querySelectorAll("img").length;
-const imgContainer = document.querySelector(".slider");
-let currImg = 1;
-let timeoutID;
-function updateImage() {
-  if (currImg > numImg) {
-    currImg = 1;
-  }
-  if (currImg > numImg / 5) {
-    currImg = 1;
-  }
-  imgContainer.style.transform = `translateX(-${(currImg - 1) * 100}%)`;
-  currImg++;
-  timeoutID = setTimeout(() => {
-    updateImage();
-  }, 9000);
-}
+// const numImg = document.getElementById("iframe").length;
+// const imgContainer = document.querySelector(".slider");
+// let currImg = 1;
+// let timeoutID;
+// function updateImage() {
+//   if (currImg > numImg) {
+//     currImg = 1;
+//   }
+//   if (currImg > numImg / 4) {
+//     currImg = 1;
+//   }
+//   imgContainer.style.transform = `translateX(-${(currImg - 1) * 50}%)`;
+//   currImg++;
+//   timeoutID = setTimeout(() => {
+//     updateImage();
+//   }, 2000);
+// }
 
-updateImage();
+// updateImage();
 
 // create buttons
 
